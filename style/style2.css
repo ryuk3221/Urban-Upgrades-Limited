@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+	background-color: black;
+}
+
+.logo {
+	width: 20%;
+}
+
+.logo img {
+	width: 100%;
+}
+
+pre {
+	font-size: 1.175em;
+	color: white;
+}
+
+.navbar {
+	position: fixed;
+	width: 80%;
+	height: 12%;
+	z-index: 9999999;
+	border-bottom: 1.33px solid #3b3735;
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.main {
+	padding-top: 7%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.top-footer {
+	height: 18%;
+	background-color: black;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	border-bottom: 1.33px solid #333333;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.bottom-footer {
+	background-color: black;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 10%;
+	padding-left: 10%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between
+}
+
+
+.policy,
+.copyright,
+.cont-info {
+	color: #cccccb;
+	font-size: 1.1875em;
+}
+
+.policy a {
+	color: #cccccb;
+	text-decoration: none;
+}
+
+.policy a:hover {
+	font-weight: Bold;
+	color: white;
+}
+
+@media (min-width: 1035px) and (max-width: 1544px) {
+
+	.bottom-footer,
+	.top-footer {
+		font-size: 0.75em;
+	}
+
+	.main {
+		padding-top: 11%;
+		height: 80%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1034px) {
+
+	.bottom-footer,
+	.top-footer {
+		font-size: 0.75em;
+	}
+
+	.main {
+		padding-top: 13%;
+		height: 80%;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+	.bottom-footer,
+	.top-footer {
+		font-size: 0.625em;
+	}
+
+	.main {
+		padding-top: 18%;
+		height: 55%;
+	}
+}
+
+@media (max-width: 575px) {
+
+	.bottom-footer,
+	.top-footer {
+		font-size: 0.5em;
+	}
+
+	.main {
+		padding-top: 33%;
+		height: 50%;
+	}
+}

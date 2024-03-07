@@ -1,0 +1,1258 @@
+body {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Mulish";
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+}
+
+h1 {
+	font-size: 8.375em;
+}
+
+h2 {
+	font-size: 4.125em;
+}
+
+h3 {
+	font-size: 3.5em;
+}
+
+h4 {
+	font-size: 2.5em;
+}
+
+h5 {
+	font-size: 1.375em;
+}
+
+h6 {
+	font-size: 1.175em;
+}
+
+.navbar {
+	position: fixed;
+	width: 80%;
+	height: 12%;
+	z-index: 9999999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.logo {
+	width: 20%;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.nav {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	justify-content: flex-end;
+	margin-left: 5%;
+	align-items: center;
+}
+
+.nav a {
+	font-family: 'Montserrat';
+	color: white;
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 1.375em;
+	margin: 2%;
+}
+
+.nav a:hover,
+.nav a.active {
+	color: #00a696;
+}
+
+.main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.main-info {
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/URBAN_1.jpg);
+	background-size: cover;
+	background-position: 10%, 60%;
+}
+
+.mi-text {
+	padding-top: 17%;
+	padding-left: 10%;
+	padding-bottom: 13%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+	color: white;
+}
+
+.mi-text {
+	color: white
+}
+
+.mi-text h4 {
+	font-weight: 600;
+	font-size: 28px;
+}
+
+.mi-text h4 span {
+	font-weight: 700;
+}
+
+.mi-text h2 {
+	font-size: 50px;
+	font-weight: 900;
+	margin-top: 20px;
+	color: #00a696;
+}
+
+.mi-text h1 {
+	font-size: 10em;
+	font-weight: 900;
+}
+
+.mi-text h3 {
+	font-size: 70px;
+	font-weight: 900;
+	margin-bottom: 40px;
+}
+
+.mi-text p {
+	font-size: 22px;
+	font-weight: 600;
+	max-width: 575px;
+}
+
+.mi-text p span {
+	font-weight: 900;
+}
+
+.but {
+	margin-top: 10%;
+	display: flex;
+}
+
+.learn,
+.cont-but {
+	cursor: pointer;
+	font-size: 1.375em;
+	color: white;
+	font-weight: 800;
+	border-radius: 8px;
+	height: 55px;
+	width: 232px;
+}
+
+.learn,
+.cont-but {
+	font-weight: 800;
+	font-family: "Mulish";
+	font-size: 16px;
+}
+
+.learn {
+	background-image: linear-gradient(to right, #00a696 57%, #00a696);
+	border: none;
+	margin-right: 5%;
+}
+
+.cont-but {
+	background-color: transparent;
+	border: 1px solid #00a696;
+}
+
+.ms-text h6,
+.ma-text h6,
+.s-text h6 {
+	font-weight: 800;
+	color: #00a696;
+	font-size: 14px;
+}
+
+.ms-text h3,
+.ma-text h3,
+.s-text h3 {
+	font-weight: 900;
+	font-size: 42px;
+}
+
+.msit h5 {
+	font-weight: 800;
+	color: #00a696;
+	font-size: 1.6875em;
+}
+
+.msit h4 {
+	font-weight: 900;
+	font-size: 32px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.msit {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+.msi-text h5,
+.msi-text h6 {
+	text-align: left;
+	font-family: "Open Sans";
+}
+
+.msi-text h5 {
+	color: white;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.msi-text h6 {
+	font-weight: 700;
+}
+
+.msi-text h6:hover {
+	color: #00a696;
+}
+
+.ms-item {
+	width: 33%;
+	display: flex;
+	color: white;
+	flex-direction: column;
+	align-items: left;
+}
+
+.ms-item h6 {
+	font-size: 14px;
+	line-height: 1;
+	margin-bottom: 15px;
+	max-width: 209px;
+  line-height: 25px;
+	font-weight: 400;
+}
+
+.msn-item h2 {
+	font-size: 50px;
+}
+
+.msn-item sup {
+	position: relative;
+	bottom: 15px;
+	font-weight: 400;
+}
+
+.main-about,
+.ab {
+	padding-top: 10%;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/sign_urban-01.svg) no-repeat, url(../img/URBAN_2.jpg);
+	background-position: 0 0, 7% 26%, 0 0;
+	background-size: cover, 130px 123px, cover;
+}
+
+.ab1 {
+	padding-top: 10%;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/sign_urban-01.svg) no-repeat, url(../img/URBAN_3.jpg);
+}
+
+.ab {
+	background-position: 0 0, 7% 23%, 0 0;
+}
+
+.ma-text,
+.s-text {
+	margin-top: 5%;
+	margin-left: 10%;
+	padding-bottom: 10%;
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+	color: white;
+}
+
+.ma-text h5:first-of-type {
+	font-weight: 600;
+	font-size: 24px;
+	font-family: "Open sans";
+	max-width: 445px;
+}
+
+.ma-text h5,
+.s-text h5 {
+	font-weight: 400;
+	font-family: "Open sans";
+	font-size: 16px;
+	max-width: 445px;
+}
+
+.msn-list {
+	position: relative;
+	margin-top: 5%;
+	bottom: -17%;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to right, #00a696 57%, #00a696);
+	border-radius: 8px;
+	border: none;
+	padding: 20px 0;
+}
+
+.msn-item {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	padding: 2%;
+	color: white;
+	text-align: center;
+}
+
+
+.vr {
+	border-right: 1.33px solid white;
+	height: 81px;
+}
+
+.msn-item h2 {
+	font-weight: 900;
+}
+
+.msn-item h5 {
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "Open Sans";
+}
+
+.promo {
+	padding: 5%;
+	background: url(../img/sign_urban-01.svg) no-repeat, linear-gradient(to right, #00a696 57%, #00a696);
+	background-position: 90% 90%, 0 0;
+	background-size: 406px 383px, cover;
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.promo-text {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.promo button {
+	background-color: #181a20;
+}
+
+.promo-text h2 {
+	font-weight: 700;
+}
+
+.promo-text h6 {
+	font-weight: 400;
+}
+
+.promo h4 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.promo h1 {
+	font-size: 97px;
+	font-weight: 900;
+	line-height: 107px;
+	margin-bottom: 20px;
+}
+
+.inf-list {
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	bottom: -40px;
+}
+
+.inf-item {
+	text-align: left;
+	width: 24%;
+	background: url(../img/icon_urban.svg) no-repeat, linear-gradient(to right, #00a696 57%, #00a696);
+	background-position: 2% 50%, 0 0;
+	background-size: 66px 62px, cover;
+	margin-right: 1%;
+	border-radius: 8px;
+	color: white;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	flex-direction: column;
+}
+
+.inf-item h4 {
+	font-size: 32px;
+	font-weight: 900;
+	padding: 15px 0;
+}
+
+.info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 7%;
+	align-content: center;
+	flex-wrap: wrap;
+	background:  #171510;
+	background-position: -10% 10%, 0 0;
+	background-size: 424px 402px, cover;
+}
+
+.info-text {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	color: white;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.info-item:first-of-type {
+	text-align: left;
+	margin-right: 7%;
+}
+
+.info-item:last-of-type {
+	text-align: left;
+	margin-left: 7%;
+}
+
+.info-item h6,
+.areas-serv h6 {
+	color: #00a696;
+	font-weight: 800;
+	font-size: 14px;
+}
+
+.info-item h3,
+.areas-serv h3 {
+	font-weight: 900;
+	font-size: 42px;
+}
+
+.info-item h5,
+.areas-serv h5 {
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.vr2 {
+	border-right: 1.33px solid #00a696;
+	height: 360px;
+}
+
+.info .msn-list {
+	margin-top: 5%;
+	bottom: 0;
+	margin-bottom: 5%;
+}
+
+.areas-serv {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.areas-serv .inf-list {
+	margin-top: 3%;
+	width: 80%;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	bottom: 0;
+	margin-bottom: 3%;
+}
+
+.serv .areas-serv .inf-list {
+	margin-bottom: -4%;
+}
+
+.areas-serv .inf-list .inf-item {
+	background: #00a696;
+	text-align: center;
+	padding: 1%;
+}
+
+.areas-serv .inf-list .inf-item h5 {
+	font-weight: 700;
+	font-family: "Open Sans";
+	font-size: 1.6875em;
+}
+
+.areas-serv .inf-list .inf-item img {
+	width: 70px;
+	height: 70px;
+}
+
+.ms-text {
+	padding-top: 5%;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: white;
+	justify-content: center;
+}
+
+.ms-list {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	padding-top: 4%;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.areas-serv .ms-list {
+	align-items: stretch;
+	margin-bottom: 5%;
+}
+
+.serv {
+	padding-top: 10%;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  no-repeat, url(../img/URBAN_4.jpg);
+	background-position: 0 0, 7% 26%, 0 0;
+	background-size: cover, 130px 123px, cover;
+}
+
+.services .ms-list {
+	margin-top: 4%;
+	margin-bottom: 5%;
+}
+
+.services {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background: no-repeat, #070808;
+	background-position: -10% 40%, 0 0;
+	background-size: 424px 402px, cover;
+}
+
+.skills {
+	width: 100%;
+	background-color: #11110d;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+	border-bottom: 1.33px solid #11110d;
+	padding-bottom: 4%;
+}
+
+.sk-text {
+	padding-top: 5%;
+	padding-left: 10%;
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+	color: white;
+}
+
+.sk-text h6 {
+	color: #00a696;
+	font-weight: 800;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.sk-text h3 {
+	font-weight: 900;
+	font-size: 42px;
+	line-height: 50px;
+}
+
+.sk-text h5 {
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.sk-list {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding-right: 10%;
+}
+
+.sk-item {
+	display: flex;
+	flex-direction: column;
+	margin-top: 6%;
+	font-size: 1.1875em;
+}
+
+.ski-text {
+	color: white;
+	text-align: justify;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 14px;
+}
+
+.ski-text h6 {
+	font-family: "Open Sans";
+	font-weight: 600;
+}
+
+.ski-text h5 {
+	font-weight: 900;
+	color: #00a696;
+}
+
+progress {
+	margin-top: 2%;
+	width: auto;
+	background-color: #676767;
+	background-size: 1px;
+	height: 4px;
+	border: none;
+}
+
+::-webkit-progress-value {
+	background-color: #00a696;
+}
+
+::-moz-progress-bar {
+	background-color: #00a696;
+	border: none;
+}
+
+.main-services {
+	width: 100%;
+	background-color: #171510;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 4%;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.contact {
+	background: url(../img/sign_urban-01.svg) no-repeat, linear-gradient(to right, #00a696 57%, #00a696);
+	background-position: -5% 30%, 0 0;
+	background-size: 406px 383px, cover;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.cont-list {
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 5%;
+}
+
+.cont-item {
+	width: 50%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: left;
+}
+
+.cont-item h6 {
+	color: black;
+	font-weight: 800;
+	font-size: 14px;
+}
+
+.cont-item h3 {
+	font-weight: 900;
+	font-size: 42px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.cont-item h5 {
+	font-family: "Open Sans";
+	font-weight: 400;
+}
+
+.cont-item form {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	font-weight: medium;
+}
+
+.sub {
+	background: #181a20;
+	border: 1.33px solid #00a696;
+	border-width: 1.333px;
+	font-size: 16px;
+	font-weight: 800;
+	border-radius: 8px;
+	padding: 2% 5% 2% 5%;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.name,
+.last_name,
+.email,
+.message {
+	font-size: 1.175em;
+	outline: none;
+	font-weight: medium;
+	color: white;
+	background: transparent;
+	border-bottom: 2px solid white;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+	width: 750px;
+	margin-bottom: 4%;
+	padding-bottom: 1%;
+}
+
+::placeholder {
+	color: white;
+	font-weight: medium;
+}
+
+.contact__text {
+	margin-top: 50px;
+}
+
+
+.top-footer {
+	height: 18%;
+	background-color: #11110d;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	border-bottom: 1.33px solid #333333;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.bottom-footer {
+	background-color: #11110d;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 10%;
+	padding-left: 10%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between
+}
+
+.policy,
+.copyright,
+.cont-info {
+	color: #cccccb;
+	font-size: 16px;
+	grid-row: 600;
+}
+
+.policy {
+	visibility: hidden;
+}
+
+.policy a {
+	color: #cccccb;
+	text-decoration: none;
+}
+
+.policy a:hover {
+	font-weight: Bold;
+}
+
+.ms-list h5 {
+	font-weight: 800;
+	color: #00a696;
+	margin-bottom: 5px;
+}
+
+.ms-item1 h4 {
+	margin-bottom: 62px;
+}
+
+.ms-item3 h4 {
+	margin-bottom: 62px;
+}
+
+.footer__title {
+	display: block;
+}
+
+.cont-info {
+	display: flex;
+	flex-direction: column;
+	color: #bcbab9;
+	gap: 15px;
+}
+
+.cont-info a {
+	color: #bcbab9;
+	text-decoration: none;
+}
+
+.cont-info * {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+@media (min-width: 1545px) and (max-width: 1614px) {
+
+	.services {
+
+		background: url(../img/logo_4.svg) no-repeat, #070808;
+		background-position: -10% 65%, 0 0;
+		background-size: 424px 402px, cover;
+	}
+}
+
+@media (min-width: 1035px) and (max-width: 1544px) {
+
+	.nav a {
+		font-size: 1.1875em;
+	}
+
+	h4 {
+		font-size: 1.1875em;
+	}
+
+	h5 {
+		font-size: 1em;
+	}
+
+	h3 {
+		font-size: 1.6875em;
+	}
+
+	.msi-text h4 {
+		font-size: 1.75em;
+	}
+
+	.msi-text h5 {
+		font-size: 1.25em;
+	}
+
+	.msi-text h6 {
+		font-size: 1em;
+	}
+
+	.inf-item h4 {
+		font-size: 1.5em;
+	}
+
+	.inf-item {
+		background-position: 2% 50%, 0 0;
+		background-size: 44px 40px, cover;
+	}
+
+	.areas-serv .inf-list .inf-item h5 {
+		font-size: 1em;
+	}
+
+	.name,
+	.last_name,
+	.email,
+	.message {
+		width: 450px;
+	}
+
+	.cont-item h3 {
+		font-size: 1.6875em;
+	}
+
+	.cont-item h5 {
+		font-size: 1em;
+	}
+
+	.vr2 {
+		height: 250px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1034px) {
+
+	.nav a {
+		font-size: 1.1875em;
+	}
+
+	h4 {
+		font-size: 1.1875em;
+	}
+
+	h5 {
+		font-size: 1em;
+	}
+
+	h3 {
+		font-size: 1.6875em;
+	}
+
+	.msi-text h4 {
+		font-size: 1.375em;
+	}
+
+	.ma-text {
+		padding-top: 7%;
+	}
+
+	.msi-text h5 {
+		font-size: 1.25em;
+	}
+
+	.msi-text h6 {
+		font-size: 1em;
+	}
+
+	.inf-item h4 {
+		font-size: 1.175em;
+	}
+
+	.inf-item {
+		background-position: 2% 50%, 0 0;
+		background-size: 44px 40px, cover;
+	}
+
+	.areas-serv .inf-list .inf-item h5 {
+		font-size: 1em;
+	}
+
+	.areas-serv h5 {
+		font-size: 0.75em;
+	}
+
+	.vr2 {
+		height: 335px;
+	}
+
+	.msn-item h2 {
+		font-size: 3.5em;
+	}
+
+	.msn-item h5 {
+		font-size: 1.375em;
+	}
+
+	.msit h5 {
+		font-size: 1.135em;
+	}
+
+	.name,
+	.last_name,
+	.email,
+	.message {
+		width: 300px;
+	}
+
+	.cont-item h3 {
+		font-size: 1.6875em;
+	}
+
+	.cont-item h5 {
+		font-size: 1em;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+	.nav a {
+		font-size: 1.1875em;
+	}
+
+	.msn-list {
+		bottom: -10%;
+	}
+
+	.mi-text h1 {
+		font-size: 5em;
+	}
+
+	h1 {
+		font-size: 5em;
+	}
+
+	h4 {
+		font-size: 1.1875em;
+	}
+
+	h5 {
+		font-size: 1em;
+	}
+
+	h3 {
+		font-size: 1.6875em;
+	}
+
+	.msi-text h4 {
+		font-size: 0.75em;
+	}
+
+	.ma-text {
+		padding-top: 7%;
+	}
+
+	.msi-text h5 {
+		font-size: 1.25em;
+	}
+
+	.msi-text h6 {
+		font-size: 1em;
+	}
+
+	.inf-item h4 {
+		font-size: 0.75em;
+	}
+
+	.inf-item {
+		background-position: 2% 50%, 0 0;
+		background-size: 24px 20px, cover;
+	}
+
+	.areas-serv .inf-list .inf-item h5 {
+		font-size: 0.75em;
+	}
+
+	.areas-serv h5 {
+		font-size: 0.6em;
+	}
+
+	.ski-text h6 {
+		font-size: 0.75em;
+	}
+
+	.vr2 {
+		height: 440px;
+	}
+
+	.msn-item h2 {
+		font-size: 2em;
+	}
+
+	.msn-item h5 {
+		font-size: 1.175em;
+	}
+
+	.msit h5 {
+		font-size: 1.135em;
+	}
+
+	.name,
+	.last_name,
+	.email,
+	.message {
+		width: 270px;
+	}
+
+	.cont-item h3 {
+		font-size: 1.6875em;
+	}
+
+	.cont-item h5 {
+		font-size: 1em;
+	}
+
+	.sub {
+		font-size: 1em;
+	}
+
+	.top-footer {
+		width: 80%;
+	}
+}
+
+@media(max-width: 575px) {
+
+	.nav a {
+		font-size: 1.1875em;
+	}
+
+	.msn-list {
+		bottom: -10%;
+	}
+
+	.mi-text h1 {
+		font-size: 5em;
+	}
+
+	h1 {
+		font-size: 5em;
+	}
+
+	h4 {
+		font-size: 1.1875em;
+	}
+
+	h5 {
+		font-size: 1em;
+	}
+
+	h3 {
+		font-size: 1.6875em;
+	}
+
+	.msi-text h4 {
+		font-size: 0.75em;
+	}
+
+	.ma-text {
+		padding-top: 7%;
+	}
+
+	.msi-text h5 {
+		font-size: 1.25em;
+	}
+
+	.msi-text h6 {
+		font-size: 1em;
+	}
+
+	.inf-item h4 {
+		font-size: 0.75em;
+	}
+
+	.inf-item {
+		background-position: 2% 50%, 0 0;
+		background-size: 24px 20px, cover;
+	}
+
+	.areas-serv .inf-list .inf-item h5 {
+		font-size: 0.75em;
+	}
+
+	.areas-serv h5 {
+		font-size: 0.6em;
+	}
+
+	.ski-text h6 {
+		font-size: 0.75em;
+	}
+
+	.vr2 {
+		height: 440px;
+	}
+
+	.msn-item h2 {
+		font-size: 2em;
+	}
+
+	.msn-item h5 {
+		font-size: 1.175em;
+	}
+
+	.msit h5 {
+		font-size: 1.135em;
+	}
+
+	.name,
+	.last_name,
+	.email,
+	.message {
+		width: 230px;
+	}
+
+	.cont-item h3 {
+		font-size: 1.6875em;
+	}
+
+	.cont-item h5 {
+		font-size: 1em;
+	}
+
+	.sub {
+		font-size: 1em;
+	}
+
+	.top-footer {
+		width: 80%;
+	}
+
+	.cont-info img {
+		width: 90%;
+	}
+}
